@@ -1,8 +1,6 @@
 # NatsListenerCore
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/nats_listener_core`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem implements common logic for dependent gems(nats_listener and nats_streaming_listener).
 
 ## Installation
 
@@ -22,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+It will be mentioned in `nats_listener` and `nats_streaming_listener` gems.
 
 ## Development
 
