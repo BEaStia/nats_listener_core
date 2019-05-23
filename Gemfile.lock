@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nats_listener_core (0.1.0)
+    nats_listener_core (0.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -14,7 +14,7 @@ GEM
       rspec-mocks (~> 3.8.0)
     rspec-core (3.8.0)
       rspec-support (~> 3.8.0)
-    rspec-expectations (3.8.2)
+    rspec-expectations (3.8.3)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
     rspec-mocks (3.8.0)
@@ -35,4 +35,4 @@ DEPENDENCIES
   rspec_junit_formatter (= 0.4.1)
 
 BUNDLED WITH
-   1.16.1
+   1.17.3

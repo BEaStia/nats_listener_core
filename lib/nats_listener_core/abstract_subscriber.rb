@@ -20,11 +20,11 @@ module NatsListenerCore
 
     attr_reader :client, :sid
 
-    def initialize
+    def initialize(client: nil)
       klass = self.class
       @subject = klass.const_get('SUBJECT')
       @count = klass.const_get('COUNT')
-      @client = klass.client
+      @client = client || klass.client
       @infinitive = true if @count.zero?
     end
 
