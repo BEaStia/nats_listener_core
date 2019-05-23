@@ -1,6 +1,6 @@
 # NatsListenerCore
 
-This gem implements common logic for dependent gems(nats_listener and nats_streaming_listener).
+This gem implements common logic for dependent gems(`nats_listener` and `nats_streaming_listener`).
 
 ## Installation
 
